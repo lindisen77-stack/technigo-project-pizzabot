@@ -15,6 +15,24 @@ alert(
 // Step 2 - Food choice
 // Your code goes here
 
+const foodChoice = prompt("Vilken maträtt vill du beställa? Välj maträtt: 1 = Pizza, 2 = Pasta, 3 = Salad");
+
+let food;
+
+if (foodChoice === "1") {
+  food = "Pizza";
+}
+
+else if (foodChoice === "2") {
+  food = "Pasta";
+}
+
+else if (foodChoice === "3") {
+  food = "Salad";
+}
+
+alert(`Du valde ${food}!`);
+
 // Step 3 - Subtype choice
 // Your code goes here
 
