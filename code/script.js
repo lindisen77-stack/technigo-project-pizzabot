@@ -106,6 +106,15 @@ alert(`Maten är till en ${age}!`);
 
 alert(`Priset är ${price}!`);
 
-
 // Step 5 - Order confirmation
 // Your code goes here
+
+const confirmationChoice = prompt("Vill du bekräfta beställningen? 1 = Ja, 2 = Nej");
+
+if (confirmationChoice === "1") {
+  alert("Tack för din beställning");
+}
+
+else if (confirmationChoice === "2") {
+  alert("Välkommen åter!");
+}
