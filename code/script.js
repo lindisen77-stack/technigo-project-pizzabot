@@ -61,7 +61,7 @@ if (food === "Pasta") {
     pasta = "Carbonara";
   }
 
-  else if (pizzaChoice === "2") {
+  else if (pastaChoice === "2") {
     pasta = "Bolognese";
   }
 
@@ -86,6 +86,26 @@ if (food === "Salad") {
 
 // Step 4 - Age
 // Your code goes here
+
+const ageChoice = prompt("Är maten till en vuxen eller ett barn? 1 = vuxen, 2 = barn");
+
+let age;
+let price;
+
+if (ageChoice === "1") {
+  age = "vuxen";
+  price = "15 euro";
+}
+
+else if (ageChoice === "2") {
+  age = "barn";
+  price = "10 euro";
+}
+
+alert(`Maten är till en ${age}!`);
+
+alert(`Priset är ${price}!`);
+
 
 // Step 5 - Order confirmation
 // Your code goes here
