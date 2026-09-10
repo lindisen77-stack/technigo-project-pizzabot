@@ -36,6 +36,54 @@ alert(`Du valde ${food}!`);
 // Step 3 - Subtype choice
 // Your code goes here
 
+if (food === "Pizza") {
+  const pizzaChoice = prompt("Vilken pizza vill du ha? 1 = Margherita, 2 = Vesuvio");
+
+  let pizza;
+
+  if (pizzaChoice === "1") {
+    pizza = "Margherita";
+  }
+
+  else if (pizzaChoice === "2") {
+    pizza = "Vesuvio";
+  }
+
+  alert(`Du valde ${pizza}!`);
+}
+
+if (food === "Pasta") {
+  const pastaChoice = prompt("Vilken pasta vill du ha? 1 = Carbonara, 2 = Bolognese");
+
+  let pasta;
+
+  if (pastaChoice === "1") {
+    pasta = "Carbonara";
+  }
+
+  else if (pizzaChoice === "2") {
+    pasta = "Bolognese";
+  }
+
+  alert(`Du valde ${pasta}!`);
+}
+
+if (food === "Salad") {
+  const saladChoice = prompt("Vilken sallad vill du ha? 1 = Grekisk sallad, 2 = Räksallad");
+
+  let salad;
+
+  if (saladChoice === "1") {
+    salad = "Grekisk sallad";
+  }
+
+  else if (saladChoice === "2") {
+    salad = "Räksallad";
+  }
+
+  alert(`Du valde ${salad}!`);
+}
+
 // Step 4 - Age
 // Your code goes here
 
