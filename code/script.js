@@ -94,17 +94,17 @@ let price;
 
 if (ageChoice === "1") {
   age = "vuxen";
-  price = "15 euro";
+  price = 15;
 }
 
 else if (ageChoice === "2") {
   age = "barn";
-  price = "10 euro";
+  price = 10;
 }
 
 alert(`Maten är till en ${age}!`);
 
-alert(`Priset är ${price}!`);
+alert(`Priset är ${price} euro!`);
 
 // Step 5 - Order confirmation
 // Your code goes here
