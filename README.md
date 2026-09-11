@@ -1,12 +1,11 @@
 # Pizzabot
 
-Replace this readme with your own information about the project. You can include things like:
-
-- Brief description of the assignment
-- How you approached the task, what tools and techniques you used, and how you planned it
-- If you had more time, what would be next?
+The assignment was to build a Pizzabot using JavaScript and practice understanding the basics of the programming language.
+I used ChatGPT to practice writing the code and understand the JavaScript. I planned my work by studying for at least 15 minutes every day.
+Next, I want to continue with the other exercises in the course and keep practicing JavaScript.
 
 ## View it live
-Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
 
+
+[View the live project](https://technigo-project-pizzabot-8bp.pages.dev)
 Linda Berggren
